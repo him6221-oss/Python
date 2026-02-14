@@ -13,11 +13,8 @@ ASSIGNMENT REQUIREMENTS
 -----------------------------------------------------------------------
 """
 
-
-# Task 1: The Nagging Kid
+# The Nagging Kid
 keep_asking = True
-
-#While loop keep asking YES
 while keep_asking:
     answer = input("Are we there yet? ")
     if answer == "yes":
@@ -26,6 +23,6 @@ while keep_asking:
     else:
         print("Not yet!")
 
-        #For loop 99 bottles
-        for bottles in range(99, 0, -1):
-            print(bottles, "bottles of beer on the wall")
+# 99 Bottles of Beer
+for bottles in range(99, 0, -1):
+    print(bottles, "bottles of beer on the wall")
