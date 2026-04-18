@@ -1,6 +1,4 @@
-"""
-COMIC BOOK CLASS
-"""
+
 
 class ComicBook:
     def __init__(self, title, issue, publisher, condition):
